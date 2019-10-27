@@ -2,8 +2,12 @@
   "name": "redux-effects-ts",
   "version": "0.1.0",
   "description": "Safe effects middleware for redux and TypeScript, inspired by redux-effects",
-  "main": "dist/index.js",
-  "repository": "git@github.com:huntwj/redux-effects-ts.git",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/huntwj/redux-effects-ts"
+  },
   "author": "Wil Hunt <huntwj@gmail.com>",
   "license": "MIT",
   "private": false,
