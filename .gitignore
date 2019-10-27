@@ -1,0 +1,8 @@
+# Let's not keep npm caches in the repository. That would not be good.
+node_modules
+
+# Build, test, and other derived files should also not be included
+# in the repository.
+/coverage
+/es6
+/lib
