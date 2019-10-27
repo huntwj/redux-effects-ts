@@ -1,3 +1,1 @@
-export const effectsMiddleware = () => {
-  return 4;
-};
+export * from "./effects-middleware";

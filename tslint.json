@@ -1,11 +1,12 @@
 {
   "defaultSeverity": "error",
-  "extends": [
-    "tslint:recommended"
-  ],
+  "extends": ["tslint:recommended", "tslint-config-prettier"],
   "jsRules": {},
   "rules": {
-    "interface-name": false
+    "interface-name": false,
+    "variable-name": {
+      "options": ["allow-leading-underscore"]
+    }
   },
   "rulesDirectory": []
 }
